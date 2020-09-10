@@ -1,5 +1,4 @@
-## imgur-grab: No-BS Imgur searching.
-<hr>
+# imgur-grab: No-BS Imgur searching.
 
 `npm i ApexDevelopment/imgur-grab`
 
