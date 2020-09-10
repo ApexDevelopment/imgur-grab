@@ -1,6 +1,6 @@
 {
   "name": "imgur-grab",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "No-BS Imgur search.",
   "main": "index.js",
   "scripts": {
