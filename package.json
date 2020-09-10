@@ -1,0 +1,22 @@
+{
+  "name": "imgur-grab",
+  "version": "1.0.0",
+  "description": "No-BS Imgur search.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApexDevelopment/imgur-grab.git"
+  },
+  "keywords": [
+    "imgur"
+  ],
+  "author": "Micah Havens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ApexDevelopment/imgur-grab/issues"
+  },
+  "homepage": "https://github.com/ApexDevelopment/imgur-grab#readme"
+}
