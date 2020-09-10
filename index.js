@@ -21,10 +21,10 @@ module.exports = (query) => {
 				res.setEncoding("utf-8");
 				res.on("data", d => body += d);
 				res.on("end", () => {
-					let matches = [...body.matchAll(/(\/\/i\.imgur\.com\/(?:[A-z]|[0-9])+\.[a-z]*?)"/g)];
+					let matches = [...body.matchAll(/\/\/i\.imgur\.com\/((?:[A-z]|[0-9])+?)b\.([a-z]+?)"/g)];
 					
 					matches.forEach((val, index) => {
-						matches[index] = `https:${val[1]}`;
+						matches[index] = `https://i.imgur.com/${val[1]}.${val[2]}`;
 					});
 
 					resolve(matches);

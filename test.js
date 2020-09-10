@@ -3,6 +3,7 @@ const url = require("url");
 const imgur = require("./index.js");
 
 imgur("test").then((links) => {
+	console.log("First link: " + links[0]);
 	assert(links, `Links was null or undefined: ${typeof links}`);
 	assert(Array.isArray(links), `Links was not an array: ${typeof links}`);
 
